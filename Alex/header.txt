@@ -3,3 +3,25 @@ Unix sect.00001, semester 3
 Name: Alexander Vasil
 Server-Ip: 51.222.30.172
 Team Name: ACEUNIX
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tasks completed this week so far...
+
+-Bought and created users in the VPS server.
+-Changed the root user password.
+
+What we were blocked by...
+
+-One teammate was blocked by getting the right RSA key to be
+able to add it to the server; was fixed by telling him to 
+give the .pub key instead of his private key.
+
+Biggest challenge?...
+
+-Figuring out how to properly ssh into the server from 
+the command line.
+
+Current state of the project...
+
+-Starting out...
