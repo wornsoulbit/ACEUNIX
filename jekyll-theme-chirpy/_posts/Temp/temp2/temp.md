@@ -8,3 +8,6 @@ tags: [placeholder]
 # Welcome to this page
 
 there isnt much here...
+
+This is our first Jekyll website that consists of small editorial changes. 
+Since we are new to Jekyll, please bare with us :).
