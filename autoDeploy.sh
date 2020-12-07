@@ -11,5 +11,5 @@ then
 	echo $(cd jekyll-theme-chirpy)
 	echo $(bundle exec jekyll build)
 	#(2)copy static files to the correct location
-
+	echo $(sudo cp -R _site /var/www/html)
 fi	
