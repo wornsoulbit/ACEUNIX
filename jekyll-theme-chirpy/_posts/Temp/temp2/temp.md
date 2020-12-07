@@ -8,3 +8,5 @@ tags: [placeholder]
 # Welcome to this page
 
 there isnt much here...
+
+hello, this is some cool text here! :D
