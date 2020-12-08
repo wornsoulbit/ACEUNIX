@@ -8,8 +8,8 @@ upToDateMessage=$(git pull)
 if ! [[ $upToDateMessage == "Already up to date." ]];
 then
 	#(1)building site
-	echo $(cd jekyll-theme-chirpy)
-	echo $(bundle exec jekyll build)
+	cd ~/ACEUNIX/jekyll-theme-chirpy
+	bundle exec jekyll build
 	#(2)copy static files to the correct location
-	echo $(sudo cp -R _site/* /var/www/html)
+	sudo cp -R _site/* /var/www/html
 fi	
