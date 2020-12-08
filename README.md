@@ -1,10 +1,9 @@
 # ACEUNIX
 
-Final project for Unix.
-
 Students: Alex Vasil, Ebrahim Vericain, Christian David
 
 License: GNU PLv3
+
 
 
 This is the repository for the final project. It contains:
