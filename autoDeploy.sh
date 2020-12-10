@@ -13,5 +13,5 @@ then
 	cd /home/debian/ACEUNIX/jekyll-theme-chirpy
 	bundle exec jekyll build
 	#(2)copy static files to the correct location
-	sudo rsync -r home/debian/ACEUNIX/jekyll-theme-chirpy/_site/* /var/www/html
+	sudo rsync -r _site/* /var/www/html
 fi	
