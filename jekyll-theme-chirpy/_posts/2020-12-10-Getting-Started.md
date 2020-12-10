@@ -1,6 +1,8 @@
 ---
 title: Getting Started
 date: 2020-12-10 15:51:40 -0500
+categories: [Getting_Started]
+tags: [setup, getting_started, installation]
 toc: true
 ---
 
