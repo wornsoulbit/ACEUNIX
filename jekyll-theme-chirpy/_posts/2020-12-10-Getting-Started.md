@@ -77,5 +77,5 @@ Installation Instruction:
 	you'll run a similar command, bundle exec jekyll build, this command will build the _site 
 	folder without running a local copy of the site on the server.
 
-	8. Once you built the _site folder, you'll want to copy the contents of it into /var/www/html, to 
-	do so do the following command: sudo cp -r _sitePath /var/www/html.
+	8. Once you built the _site folder, you'll want to copy the contents of it into /var/www/html, 
+	to do so do the following command: sudo cp -r _sitePath /var/www/html.
