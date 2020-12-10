@@ -1,7 +1,7 @@
 ---
 title: Other Sites
 date: 2020-12-10 15:51:40 -0500
-categories: [InternetProgramming]
+categories: [Internet Programming Websites]
 tags: [externalsites]
 toc: true
 ---

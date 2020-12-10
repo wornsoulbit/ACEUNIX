@@ -1,7 +1,7 @@
 ---
 title: Setting up Jekyll with a theme
 date: 2020-12-10 16:14:04 -0500
-categories: [Getting_Started]
+categories: [Getting Started]
 tags: [setup, getting_started, installation]
 toc: true
 ---
