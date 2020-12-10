@@ -33,7 +33,8 @@ Installation Instruction:
 	6. At this point you should be able to log out of the VPS then log back into as Root 
 	without the need to enter any password at all.
 
-	7. You can also add your ssh keys by going to "My services" in OVHcloud and add them from there.
+	7. You can also add your ssh keys by going to "My services" in OVHcloud and add them 
+	from there.
 	
 
 ### Setting up Nginx:
@@ -61,19 +62,20 @@ Installation Instruction:
 
 	5. Once you have created the site you want on your local machine, you can transfer it over to 
 	the server either by SCP or github if you do decided to use github, find a proper .gitignore 
-	for jekyll as there are many files that aren't needed in the remote repository. To copy the file
-	from your local machine into the VPS without using git, would be done with SCP, initially zip the 
-	file your going to send over using zip -r file_name.zip file_path, this command will created a 
-	compressed file with the given file_name, then to send that compressed file to the server, 
-	which would be done as followed: scp /file_path username@IpAddress:/destination_path.
+	for jekyll as there are many files that aren't needed in the remote repository. To copy the 
+	file from your local machine into the VPS without using git, would be done with SCP, 
+	initially zip the file your going to send over using zip -r file_name.zip file_path, this 
+	command will created a compressed file with the given file_name, then to send that compressed 
+	file to the server, which would be done as followed: 
+	scp /file_path username@IpAddress:/destination_path.
 
 	6. Once the file is sent over to the VPS, you'll want to install unzip as it's likely that it's 
 	not installed by default, to get it do sudo apt-get install unzip. Once you have that installed 
 	just go into the directory you sent the file, and do unzip file_name.zip.
 
-	7. Once you have the Jekyll site on the server instead of running bundle exec jekyll serve you'll 
-	run a similar command, bundle exec jekyll build, this command will build the _site folder without 
-	running a local copy of the site on the server.
+	7. Once you have the Jekyll site on the server instead of running bundle exec jekyll serve 
+	you'll run a similar command, bundle exec jekyll build, this command will build the _site 
+	folder without running a local copy of the site on the server.
 
 	8. Once you built the _site folder, you'll want to copy the contents of it into /var/www/html, to 
 	do so do the following command: sudo cp -r _sitePath /var/www/html.
