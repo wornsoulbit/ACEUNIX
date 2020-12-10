@@ -8,8 +8,8 @@ toc: true
 
 ## Here's a couple of links to other websites on the server
 
-Christian's site: http://51.222.30.172/christian/IPAssignmentC/index.html
+Christian's site: <http://51.222.30.172/christian/IPAssignmentC/index.html>
 
-Alex's site: http://51.222.30.172/wornsoulbit/Assignment5/index.html
+Alex's site: <http://51.222.30.172/wornsoulbit/Assignment5/index.html>
 
-Ebrahim's site: http://51.222.30.172/ebra/firstWebsite/index.html
+Ebrahim's site: <http://51.222.30.172/ebra/firstWebsite/index.html>
