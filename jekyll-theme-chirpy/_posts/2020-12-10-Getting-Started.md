@@ -37,14 +37,14 @@ Installation Instruction:
 	from there.
 	
 
-### Setting up Nginx:
+## Setting up Nginx:
 
 	1. sudo apt-get install nginx on debian based systems, for other linux distros search online.
 
 	2. systemctl status nginx.service to make sure the service is running. By default it should.
 
 
-### Setting up a Jekyll static website:
+## Setting up a Jekyll static website:
 
 	1. sudo apt-get install ruby-full if ruby isn't already installed, you can check if ruby 
 	is installed by doing ruby -v to see the version currently installed.
