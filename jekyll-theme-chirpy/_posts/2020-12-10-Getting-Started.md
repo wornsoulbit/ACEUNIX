@@ -4,9 +4,7 @@ date: 2020-12-10 15:51:40 -0500
 toc: true
 ---
 
-Installation Instruction:
-
-## Setting up VPS:
+## Setting up VPS
 
 	1. Go to https://www.ovhcloud.com/en-ca/vps/ to set up your person VPS. 
 	Select your plan (Operating system, datacentre, etc..).
@@ -14,9 +12,7 @@ Installation Instruction:
 	2. Once your done. You should mark down the IP they provided to you.
 
 
-## From VPS to install nginx, do: 
-
-### Setting up SSH keys for your VPS:
+### Setting up SSH keys for your VPS
 
 	1. ssh-keygen -b 4096 by default it'll save the keypairs in the ~/.ssh directory.
 	
@@ -37,14 +33,14 @@ Installation Instruction:
 	from there.
 	
 
-## Setting up Nginx:
+## Setting up Nginx
 
 	1. sudo apt-get install nginx on debian based systems, for other linux distros search online.
 
 	2. systemctl status nginx.service to make sure the service is running. By default it should.
 
 
-## Setting up a Jekyll static website:
+## Setting up a Jekyll static website
 
 	1. sudo apt-get install ruby-full if ruby isn't already installed, you can check if ruby 
 	is installed by doing ruby -v to see the version currently installed.
