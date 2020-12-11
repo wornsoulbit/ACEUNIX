@@ -35,6 +35,7 @@ B. Setting up Nginx:
 	1. sudo apt-get install nginx on debian based systems, for other linux distros search online.
 
 	2. systemctl status nginx.service to make sure the service is running. By default it should.
+	If it's not running you'll want to start it with this command: sudo systemctl start nginx.service
 
 
 C. Setting up a Jekyll static website:
