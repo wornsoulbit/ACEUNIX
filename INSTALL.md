@@ -119,6 +119,6 @@ D. Setting up automatic updates from a remote repository:
 	fi
 	```
 
-	5. You'll want to edit the directory of the autoDeploy.sh and change it to the directory of where you installed the project, so changing 
-	cd /home/debian/ACEUNIX/ and cd /home/debian/ACEUNIX/jekyll-theme-chirpy to where you installed the project, you can find the absolute 
-	path of the directory by using pwd in a terminal
+5. You'll want to edit the directory of the autoDeploy.sh and change it to the directory of where you installed the project, so changing 
+cd /home/debian/ACEUNIX/ and cd /home/debian/ACEUNIX/jekyll-theme-chirpy to where you installed the project, you can find the absolute 
+path of the directory by using pwd in a terminal
