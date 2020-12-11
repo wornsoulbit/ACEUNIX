@@ -2,10 +2,10 @@ Installation Instruction:
 
 Setting up VPS:
 
-	1. Go to https://www.ovhcloud.com/en-ca/vps/ to set up your person VPS. 
+	1. Go to https://www.ovhcloud.com/en-ca/vps/ to set up your personal VPS. 
 	Select your plan (Operating system, datacentre, etc..).
 
-	2. Once your done. You should mark down the IP they provided to you.
+	2. Once your done. You should mark down the IP or the domain name they provided to you.
 
 
 From VPS to install nginx, do: 
