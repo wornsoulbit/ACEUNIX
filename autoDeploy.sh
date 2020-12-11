@@ -1,11 +1,10 @@
 #!/bin/bash
 
-#In order for this script to work you need to be in your local git repository (ACEUNIX directory)
-
+#Going to home directory
 cd /home/debian/ACEUNIX/
 
+#Getting the message from the git pull command
 upToDateMessage=$(git pull)
-
 
 if ! [[ $upToDateMessage == "Already up to date." ]];
 then
