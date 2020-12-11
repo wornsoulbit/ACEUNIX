@@ -70,3 +70,26 @@ C. Setting up a Jekyll static website:
 
 	8. Once you built the _site folder, you'll want to copy the contents of it into /var/www/html, to do so do the 
 	following command: sudo cp -r _sitePath /var/www/html.
+	
+D. Setting up automatic updates from a remote repository:
+	
+	1. You need to create two files in the directory of /etc/systemd/system, file_name.timer and file_name.service 
+	both files having the same name as eachother the only difference being the extension of the files.
+	
+	2. In the timer file you have the following in it:
+	[Unit]
+	Description=Setting 5 minute timer to execute daemonAutoDeployService
+	[Timer]
+	OnUnitActiveSec=5min
+	[Install]
+	WantedBy=timers.target
+
+	In the service file you have the following:
+	[Unit]
+	Description=Executing a git auto deployment file
+	[Service]
+	ExecStart=/home/debian/ACEUNIX/autoDeploy.sh
+	
+	3. Once you have these files in the /etc/systemd/system you need to start the daemon service, you first use
+	daemon-reload, then you need to actually start the service you do that with the following command: 
+	sudo systemctl start file_name.timer.
