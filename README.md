@@ -12,3 +12,4 @@ This is the repository for the final project. It contains:
 - An auto deployemnt bash script. It gets the current version of the Jekyll site through git, checks if there are any changes, then deploys the current version of website project on to the server (_site)).
 - An INSTALL file that has a step-by-step process on how to set up a server.
 - Each of our personal dated reports within our respective folders (Alex, Ebra, ..).
+- To replicate the online site, look at the INSTALL.md file in this repository.
